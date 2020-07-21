@@ -23,12 +23,8 @@ Después de hacer esto los comando son
 ## **Comandos administrativos (se debe crear la variable de entorno)**
 
  1. docker-compose run --rm django python manage.py createsuperuser
-  
-**
 
 ## Hablitar un contenedor por separado
-
-**
 
  1. docker rm -f <ID> (para matar Django)
  2. docker-compose run --rm --service-ports django (para correr django aparte)
